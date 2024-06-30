@@ -18,4 +18,5 @@
     'images':['static/description/banner.gif'],
     'installable': True,
     'application': False,
+    
 }
