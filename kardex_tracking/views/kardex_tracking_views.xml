@@ -18,4 +18,8 @@
             </tree>
         </field>
     </record>
+
+      <!-- Definición del menú -->
+    <menuitem id="menu_kardex_root" name="Kardex" sequence="10" groups="base.group_system"/>
+    <menuitem id="menu_product_kardex_wizard" name="Product Kardex" parent="menu_kardex_root" action="action_product_kardex_wizard" groups="base.group_system"/>
 </odoo>
